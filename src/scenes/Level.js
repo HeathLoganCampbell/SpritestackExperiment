@@ -127,6 +127,8 @@ export default class Level extends Phaser.Scene {
 
 		this.editorCreate();
 
+		this.useClamp = true;
+
 		// this.cubelist.
 		var staticX = 650;
 		var staticY = 250;
@@ -139,10 +141,13 @@ export default class Level extends Phaser.Scene {
 			var distPerImageX = distX / images;
 			var distPerImageY = distY / images;
 
-			if(distPerImageX > 2) distPerImageX = 2;
-			if(distPerImageX < -2) distPerImageX = -2;
-			if(distPerImageY > 2) distPerImageY = 2;
-			if(distPerImageY < -2) distPerImageY = -2;
+			if(this.useClamp)
+			{
+				if(distPerImageX > 2) distPerImageX = 2;
+				if(distPerImageX < -2) distPerImageX = -2;
+				if(distPerImageY > 2) distPerImageY = 2;
+				if(distPerImageY < -2) distPerImageY = -2;
+			}
 
 			var index = 0;
 			for(var image of this.cubelist)
@@ -179,6 +184,10 @@ export default class Level extends Phaser.Scene {
 				{
 					image.angle = image.angle - 5;
 				}
+            }
+			else if (event.key === 'p')
+			{
+				this.useClamp = !this.useClamp;
             }
         });
 	}
