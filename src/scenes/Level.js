@@ -134,8 +134,8 @@ export default class Level extends Phaser.Scene {
 		var staticY = 250;
 
 		this.input.on('pointermove', (pointer) => {
-			var distX = pointer.x - staticX;
-			var distY = pointer.y - staticY;
+			var distX = (pointer.x - staticX) / 10;
+			var distY = (pointer.y - staticY) / 10;
 			var images = 9;
 
 			var distPerImageX = distX / images;
