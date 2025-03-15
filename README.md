@@ -1,16 +1,15 @@
-# Basic JavaScript project template for Phaser Editor v4.
+# Spritestack Experiment
 
-This is a Phaser Editor v4 project template.
+A fake 3d rendering trick where you layer multiple assets on top of each other and render them at different distances to give the impression of 3D
 
-## Configuration
+<img width="679" alt="image" src="https://github.com/user-attachments/assets/18188061-7257-46c8-99b7-485844771c81" />
 
-* It is coded in JavaScript.
-* It includes a VS Code project configuration (`jsconfig.json` file) and the type definitions (in the `types/` folder).
 
-## Script Nodes
+## Tools
+* Javascript
+* Phaser.JS
+* Phaser Editor
+* MagicaVoxel
 
-Script nodes are logic objects. You can add a script node to the scene or a game object, for extending it with custom data and behavior.
-
-This project includes the script libraries:
-
-- [@phaserjs/editor-scripts-base](https://github.com/phaserjs/editor-scripts-base)# SpritestackExperiment
+## Inspiration 
+* [Whats the deal with Sprite Stacking? - Rogue North Devlog](https://www.youtube.com/watch?v=3tUVp3r8ZBs&t=8s)
