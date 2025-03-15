@@ -21,7 +21,8 @@
             "y": 478,
             "originX": 0.5,
             "originY": 0.5,
-            "text": "Sprite stack",
+            "text": "Sprite stack\n( Move your moues around to see the effect )",
+            "align": "center",
             "fontFamily": "Arial",
             "fontSize": "30px"
         },

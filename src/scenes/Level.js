@@ -22,8 +22,8 @@ export default class Level extends Phaser.Scene {
 		// welcome
 		const welcome = this.add.text(640, 478, "", {});
 		welcome.setOrigin(0.5, 0.5);
-		welcome.text = "Sprite stack";
-		welcome.setStyle({ "fontFamily": "Arial", "fontSize": "30px" });
+		welcome.text = "Sprite stack\n( Move your moues around to see the effect )";
+		welcome.setStyle({ "align": "center", "fontFamily": "Arial", "fontSize": "30px" });
 
 		// color_cube29
 		const color_cube29 = this.add.image(650, 250, "color_cube2", 9);
