@@ -1,0 +1,39 @@
+{
+    "section1": {
+        "files": [
+            {
+                "url": {
+                    "IMG": "assets/color_cube1.png"
+                },
+                "type": "texture",
+                "key": "color_cube1"
+            },
+            {
+                "url": "assets/color_cube2.png",
+                "frameConfig": {
+                    "frameWidth": 10,
+                    "frameHeight": 10,
+                    "startFrame": 0,
+                    "endFrame": 10,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "color_cube2"
+            },
+            {
+                "url": "assets/dino.png",
+                "key": "dino",
+                "type": "image"
+            }
+        ]
+    },
+    "meta": {
+        "app": "Phaser Editor 2D - Asset Pack Editor",
+        "contentType": "phasereditor2d.pack.core.AssetContentType",
+        "url": "https://phasereditor2d.com",
+        "version": 2,
+        "showAllFilesInBlocks": false,
+        "visible": true
+    }
+}

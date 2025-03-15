@@ -1,0 +1,194 @@
+{
+    "id": "01aefa93-6044-4159-8358-7e91310aa05f",
+    "sceneType": "SCENE",
+    "settings": {
+        "exportClass": true,
+        "autoImport": true,
+        "importFileExtension": true,
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "Level",
+        "borderWidth": 1280,
+        "borderHeight": 720
+    },
+    "displayList": [
+        {
+            "type": "Text",
+            "id": "b2b3dbd5-2106-41fa-8a04-9b511e3401a9",
+            "label": "welcome",
+            "scope": "CLASS",
+            "x": 640,
+            "y": 478,
+            "originX": 0.5,
+            "originY": 0.5,
+            "text": "Sprite stack",
+            "fontFamily": "Arial",
+            "fontSize": "30px"
+        },
+        {
+            "type": "Image",
+            "id": "3dde15ae-a593-4c39-ac4b-44b67fd94c43",
+            "label": "color_cube29",
+            "scope": "CLASS",
+            "texture": {
+                "key": "color_cube2",
+                "frame": 9
+            },
+            "x": 650,
+            "y": 250,
+            "scaleX": 10,
+            "scaleY": 10
+        },
+        {
+            "type": "Image",
+            "id": "d223b639-f667-4991-b790-992244f052f9",
+            "label": "color_cube28",
+            "scope": "CLASS",
+            "texture": {
+                "key": "color_cube2",
+                "frame": 8
+            },
+            "x": 650,
+            "y": 250,
+            "scaleX": 10,
+            "scaleY": 10
+        },
+        {
+            "type": "Image",
+            "id": "1ec1c30b-6da7-4937-84ce-136d04ae5989",
+            "label": "color_cube27",
+            "scope": "CLASS",
+            "texture": {
+                "key": "color_cube2",
+                "frame": 7
+            },
+            "x": 650,
+            "y": 250,
+            "scaleX": 10,
+            "scaleY": 10
+        },
+        {
+            "type": "Image",
+            "id": "5ce58ed4-8fe2-463f-8e19-e4c57eaae195",
+            "label": "color_cube26",
+            "scope": "CLASS",
+            "texture": {
+                "key": "color_cube2",
+                "frame": 6
+            },
+            "x": 650,
+            "y": 250,
+            "scaleX": 10,
+            "scaleY": 10
+        },
+        {
+            "type": "Image",
+            "id": "a6110776-970a-4d47-8fb0-54dd329615cd",
+            "label": "color_cube25",
+            "scope": "CLASS",
+            "texture": {
+                "key": "color_cube2",
+                "frame": 5
+            },
+            "x": 650,
+            "y": 250,
+            "scaleX": 10,
+            "scaleY": 10
+        },
+        {
+            "type": "Image",
+            "id": "4160d37b-9155-4007-9dc0-edb5de9e66ef",
+            "label": "color_cube24",
+            "scope": "CLASS",
+            "texture": {
+                "key": "color_cube2",
+                "frame": 4
+            },
+            "x": 650,
+            "y": 250,
+            "scaleX": 10,
+            "scaleY": 10
+        },
+        {
+            "type": "Image",
+            "id": "e4bb0837-ff89-4844-8cca-8c7f8650843c",
+            "label": "color_cube23",
+            "scope": "CLASS",
+            "texture": {
+                "key": "color_cube2",
+                "frame": 3
+            },
+            "x": 650,
+            "y": 250,
+            "scaleX": 10,
+            "scaleY": 10
+        },
+        {
+            "type": "Image",
+            "id": "7dad6158-6a1a-43b5-bd49-b0023693599d",
+            "label": "color_cube22",
+            "scope": "CLASS",
+            "texture": {
+                "key": "color_cube2",
+                "frame": 2
+            },
+            "x": 650,
+            "y": 250,
+            "scaleX": 10,
+            "scaleY": 10
+        },
+        {
+            "type": "Image",
+            "id": "5baf0a8c-5df3-4871-9d44-aec2b3a501a4",
+            "label": "color_cube21",
+            "scope": "CLASS",
+            "texture": {
+                "key": "color_cube2",
+                "frame": 1
+            },
+            "x": 650,
+            "y": 250,
+            "scaleX": 10,
+            "scaleY": 10
+        },
+        {
+            "type": "Image",
+            "id": "b7e56349-2e04-4aa5-9840-4563fd498455",
+            "label": "color_cube20",
+            "scope": "CLASS",
+            "texture": {
+                "key": "color_cube2",
+                "frame": 0
+            },
+            "x": 650,
+            "y": 250,
+            "scaleX": 10,
+            "scaleY": 10
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    },
+    "lists": [
+        {
+            "id": "c69a0109-a580-4044-9192-78ae46b4224b",
+            "label": "cubelist",
+            "objectIds": [
+                "b7e56349-2e04-4aa5-9840-4563fd498455",
+                "5baf0a8c-5df3-4871-9d44-aec2b3a501a4",
+                "7dad6158-6a1a-43b5-bd49-b0023693599d",
+                "e4bb0837-ff89-4844-8cca-8c7f8650843c",
+                "4160d37b-9155-4007-9dc0-edb5de9e66ef",
+                "a6110776-970a-4d47-8fb0-54dd329615cd",
+                "5ce58ed4-8fe2-463f-8e19-e4c57eaae195",
+                "1ec1c30b-6da7-4937-84ce-136d04ae5989",
+                "d223b639-f667-4991-b790-992244f052f9",
+                "3dde15ae-a593-4c39-ac4b-44b67fd94c43"
+            ]
+        }
+    ]
+}
